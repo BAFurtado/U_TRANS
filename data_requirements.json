@@ -1,0 +1,25 @@
+{
+  "households": {
+    "members": [
+      "income",
+      "skills",
+      "employment_status"
+    ]
+  },
+  "houses": "prices",
+  "neighbourhoods": [
+    "administrative_boundaries",
+    ""
+  ],
+  "industries": [
+    "size",
+    "income_min",
+    "income_max",
+    "skill_min",
+    "past_growth_rate",
+    {"businesses":  "location"}
+  ],
+  "general": [
+    "percentage_married"
+  ]
+}
