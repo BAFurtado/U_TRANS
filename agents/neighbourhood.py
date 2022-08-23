@@ -13,7 +13,7 @@ class Neighbourhood:
         self.data = defaultdict(list)
         self.init_avg_price = initial_avg_price
         self.init_unemployment_index = init_unemployment_index
-        self.data['p'] = [1]
+        self.data['housing_price_index'] = [1]
 
     def update_income_score(self, value):
         self.data['income_score'].append(value)
